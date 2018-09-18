@@ -1,0 +1,39 @@
+.review__item{
+    font-size: 0;
+    margin-bottom: 40px;
+}
+.review__item-wrap{
+    padding-bottom: 30px;
+    display: inline-block;
+    border-bottom: 2px solid #f5f5f5;
+}
+.review__item:last-child .review__item-wrap{
+    border-bottom: none;
+}
+.review__photo, .review__text{
+    font-size: 18px;
+    display: inline-block;
+    vertical-align: top;
+}
+.review__photo{
+    margin-right: 20px;
+}
+.review__avatar{
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    border-radius: 50%;
+    background: #f5f5f5;
+    position: relative;
+}
+.review__text{
+    max-width: 690px;
+}
+.review__date{
+    font-size: 14px;
+    color: #656464;
+    margin-bottom: 10px;
+}
+.review__name{
+    margin-bottom: 10px;
+}

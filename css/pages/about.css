@@ -1,0 +1,72 @@
+.content__photo {
+    background: url(../../img/decor/about-dec.jpg) center center no-repeat;
+    width: 880px;
+    height: 345px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.photo__text {
+    position: absolute;
+    top: 120px;
+    left: 70px;
+    font-size: 49px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.content__text {
+    margin-bottom: 30px;
+}
+
+.content__text p:last-of-type {
+    margin-bottom: 0;
+}
+
+.content__text li {
+    position: relative;
+    padding-left: 40px;
+}
+
+.content__text li::before {
+    content: "";
+    display: inline-block;
+    width: 3px;
+    height: 3px;
+    background: #221f1f;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.content__text-offer {
+    background: #131415;
+    color: #fff;
+    padding: 15px 30px;
+    margin-bottom: 70px; 
+}
+
+.partners__item {
+    margin-bottom: 50px;
+    width: 33.3%;
+    height: 90px;
+    float: left;
+    position: relative;
+}
+
+.partners__logo {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .2s linear;
+    -o-transition: .2s linear;
+    transition: .2s linear;
+}
+
+.partners__item:hover .partners__logo {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}

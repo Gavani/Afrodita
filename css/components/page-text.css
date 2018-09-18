@@ -1,0 +1,18 @@
+
+.main__content{
+    width: 700px;
+    font-size: 18px;
+    line-height: 1.79;
+}
+.head__text{
+    color: #221f1f;
+    font-size: 49px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.bold{
+    font-weight: bold;
+}

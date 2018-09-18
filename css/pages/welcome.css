@@ -1,0 +1,38 @@
+.wrapper__background{
+    background: url('../../img/bg/welkback.jpg') center center no-repeat; 
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.welcome__content{
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: center;
+}
+.welcome__logo{
+    margin: 0px auto;
+    margin-bottom: 30px;
+}
+.btn__item{
+    display: inline-block;
+    width: 172px;
+    height: 45px;
+    background: #f89513;
+    border-radius: 4px;
+    line-height: 45px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    -webkit-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
+    transition: 0.2s linear;
+}
+.btn__item:hover{
+    background: #131415;
+}

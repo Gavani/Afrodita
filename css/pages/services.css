@@ -1,0 +1,28 @@
+.services__list{
+    font-size: 0;
+    margin-left: -50px;
+}
+.services__item{
+    display: inline-block;
+    width: 250px;
+    font-size: 14px;
+    margin-left: 50px;
+    margin-bottom: 70px;
+    vertical-align: top;
+}
+.services__photo{
+    width: 250px;
+    height: 155px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+.services__img--translate{
+    position: absolute;
+    top: -50%;
+}
+.services__name{
+    font-size: 18px;
+    margin-bottom: 10px;
+}

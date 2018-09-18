@@ -1,0 +1,48 @@
+.side__bar{
+    width: 180px; 
+    float: left;
+    margin-top: 50px;
+}
+.side__list-item{
+    margin-bottom: 30px;
+}
+.side__link{
+    display: block;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    color: #f89513;
+    vertical-align: middle;
+}
+.side__icon, .side__text{
+    display: inline-block;
+    vertical-align: middle;
+}
+.side__icon{
+    background: url('../../img/icons/menu-icons/menu-sprite.png') 0 0 no-repeat;
+    width: 20px;   
+    height: 20px;
+    margin-right: 15px;
+}
+.side__icon-main{
+    background-position-x: -100px;
+    background-position-y: -100px;
+}
+.side__icon-services{
+    background-position-x:  0;
+    background-position-y: -100px;
+}
+.side__icon-review{
+    background-position-x: -200px;
+    background-position-y: -100px;
+}
+.side__text{
+    max-width: 120px;
+}
+
+.side__list-item:hover .side__link, .side__list-item--active .side__link{
+    color: #221f1f;
+}
+.side__list-item:hover .side__icon, .side__list-item--active .side__icon{
+    background-position-y: 0;
+}
